@@ -1,0 +1,28 @@
+
+#sec-left > a:hover{
+    /* border-bottom: 1px solid white; */
+    text-shadow: 6px 6px 6px black;
+    transform: translateY(-2px);
+}
+
+
+.watch:hover{
+    text-shadow: 4px 4px 14px rgb(99, 98, 98);
+}
+
+.details:hover{
+    text-shadow: 4px 4px 14px rgb(99, 98, 98);
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+#slider > img{
+    transition: all 0.2s linear;
+}
+
+#slider > img:hover{
+    transform: translateY(-7px);
+    
+}
